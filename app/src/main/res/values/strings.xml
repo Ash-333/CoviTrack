@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">CoviTrack</string>
+    <string name="death">Death</string>
+    <string name="recovered">Recovered</string>
+    <string name="confirm">Confirm</string>
+    <string name="active">Active</string>
+    <string name="covid_19_tracker">Covid 19 Tracker</string>
+    <string name="nepal">Nepal</string>
+    <string name="total_test">Total test</string>
+    <string name="search_here">Search here</string>
+    <string name="about_us">About Us</string>
+    <string name="ashish_kamat">Ashish Kamat</string>
+    <string name="libraries">Libraries</string>
+    <string name="credits">
+        <b>corona.lmao.ninja</b> for Global API.
+       <b>\n icons8.com</b> for social media icons.
+    </string>
+
+    <string name="libs"> <b>Glide</b> for showing flag images.
+         <b>\n Eaze Graph</b> for showing Pie charts.
+         <b>Circle ImageView</b> to show image in a circular frame.
+        <b>\n Retrofit</b> for api call.
+        <b>\n Gson</b> for JSON parsing.
+    </string>
+
+    <string name="version">v1.0.0</string>
+    <string name="application_developer">Android Developer</string>
+    <string name="developed_by_ashish_kamat">Developed by Ashish Kamat</string>
+    <string name="covid_19_status_tracker">COVID-19 Status Tracker</string>
+    <string name="credits_">Credits</string>
+    <string name="total_population">Total Population</string>
+
+</resources>
