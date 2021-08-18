@@ -10,6 +10,8 @@ import androidx.cardview.widget.CardView
 import com.ashish.covitrack.R
 import com.ashish.covitrack.models.VirusModel
 import com.ashish.covitrack.network.ApiServices
+import com.google.android.gms.ads.AdView
+import com.google.android.gms.ads.MobileAds
 import org.eazegraph.lib.charts.PieChart
 import org.eazegraph.lib.models.PieModel
 import retrofit2.Call
@@ -38,6 +40,11 @@ class MainActivity : AppCompatActivity() {
     private var countryName:String="Nepal"
     private var totalPopulation:TextView?=null
     private var aboutUs:Button?=null
+    lateinit var mAdView : AdView
+    private val mAppUnitId: String by lazy {
+
+        "ca-app-pub-7906083922186381~5303056044"
+    }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -46,6 +53,8 @@ class MainActivity : AppCompatActivity() {
             countryName= intent.getStringExtra("country")!!
         }
         init()
+
+
         country?.text = countryName
         country?.setOnClickListener{
             startActivity(Intent(this,CountryActivity::class.java))
@@ -132,4 +141,5 @@ class MainActivity : AppCompatActivity() {
         totalPopulation=findViewById(R.id.totalPopulation)
         aboutUs=findViewById(R.id.aboutUs)
     }
+
 }
