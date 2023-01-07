@@ -2,6 +2,8 @@
 # Covi Tracker
 
 A simple Android app show covid data written in Kotlin
+To download the APK file, click [here](https://drive.google.com/file/d/16ZeALIg2zoXCf0FbIUbIRQJhczLOTD7N/view).
+
 
  #### Kotlin | Retrofit | Glide | Eazy Graph
 
